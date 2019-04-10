@@ -10,6 +10,8 @@ requests = "*"
 beautifulsoup4 = "*"
 pytest = "*"
 vcrpy = "*"
+pillow = "*"
+pytesseract = "*"
 
 [requires]
 python_version = "3.5"
