@@ -1,0 +1,321 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://inforintelligence.com/
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n\n  <head>\n\n     <!-- Global\
+        \ site tag (gtag.js) - Google Analytics -->\n     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-114802732-1\"\
+        ></script>\n     <script>\n       window.dataLayer = window.dataLayer || [];\n\
+        \       function gtag(){dataLayer.push(arguments);}\n       gtag('js', new\
+        \ Date());\n\n       gtag('config', 'UA-114802732-1', { 'anonymize_ip': true\
+        \ });\n     </script>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\"\
+        \ content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n   \
+        \ <meta name=\"description\" content=\"Using military grade machine learning\
+        \ algorithms, we turn big data into valuable intelligence. We help surface\
+        \ potential partnerships, create market insights and discover new opportunities.\
+        \ Rely on smart algorithms for important strategic decisions.\">\n    <meta\
+        \ name=\"keywords\" content=\"partnership, B2B, collaboration, technology\
+        \ scouting, Innovation, Open innovation, external innovation, competitor analysis,\
+        \ landscape, startup sourcing, big data\"\n    <meta name=\"author\" content=\"\
+        \">\n\n    <title>InForIntelligence | Next generation strategic decisionmaking\
+        \ for corporates</title>\n\n    <!-- Bootstrap core CSS -->\n    <link href=\"\
+        vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link rel=\"\
+        stylesheet\" type=\"text/css\" href=\"css/MyFontsWebfontsKit.css\"/>\n\n \
+        \   <!-- Custom fonts for this template -->\n    <link href=\"vendor/font-awesome/css/font-awesome.min.css\"\
+        \ rel=\"stylesheet\" type=\"text/css\">\n\n    <!-- Custom styles for this\
+        \ template -->\n    <link href=\"css/grayscale.css\" rel=\"stylesheet\">\n\
+        \n    <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"img/favicon-96x96.png\"\
+        >\n\n  <link rel=\"stylesheet\" href=\"/assets/components/spform/css/spform.css\"\
+        \ type=\"text/css\" />\n<script type=\"text/javascript\" src=\"/assets/components/spform/js/emailcheck.js\"\
+        ></script>\n<script type=\"text/javascript\">  /* <![CDATA[ */ var requireName\
+        \ = true; var requireEmail = true; var requireSubject = true; function checkform\
+        \ (form) { if (requireName == true) { if (form.name.value == \"\") { alert(\"\
+        You didn't enter your name.\"); form.name.focus(); return false; } } if (requireEmail\
+        \ == true) { if (form.email.value.length == \"\") { alert(\"You didn't enter\
+        \ your email address.\" ); form.email.focus(); return false; } if(emailCheck(form.email.value)\
+        \ == false) { alert(\"doesn't look like a valid email address\"); form.email.focus();\
+        \ return false;  } } if (requireSubject == true) { if (form.subject.value\
+        \ == \"\") { alert(\"You didn't enter a subject.\"); form.subject.focus();\
+        \ return false; } } if (form.comments.value == \"\") { alert(\"You didn't\
+        \ enter any comments.\" ); form.comments.focus(); return false; } }  /* ]]>\
+        \ */ </script> \n</head>\n\n  <body id=\"page-top\">\n\n    <!-- Navigation\
+        \ -->\n    <nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"\
+        mainNav\">\n        <div class=\"container-fluid\">\n            <a class=\"\
+        navbar-brand mr-0 js-scroll-trigger\" href=\"#page-top\">InForIntelligence</a>\n\
+        \            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"\
+        collapse\" data-target=\"#collapsingNavbar\">\n                <span class=\"\
+        navbar-toggler-icon\"></span>\n            </button>\n        <div class=\"\
+        navbar-collapse collapse w-10 justify-content-center\" id=\"collapsingNavbar\"\
+        >\n            <ul class=\"navbar-nav\">\n                <li class=\"nav-item\
+        \ active\">\n                    <a class=\"nav-link js-scroll-trigger\" href=\"\
+        #page-top\">Home</span></a>\n                </li>\n                <li class=\"\
+        nav-item\">\n                    <a class=\"nav-link js-scroll-trigger\" href=\"\
+        #about\">Our Services</a>\n                </li>\n                <li class=\"\
+        nav-item\">\n                    <a class=\"nav-link js-scroll-trigger\" href=\"\
+        #cases\">Cases</a>\n                </li>\n                <li class=\"nav-item\"\
+        >\n                    <a class=\"nav-link js-scroll-trigger\" href=\"#founders\"\
+        >Founders</a>\n                </li>\n                <li class=\"nav-item\"\
+        >\n                    <a class=\"nav-link js-scroll-trigger\" href=\"#contact\"\
+        >Contact</a>\n                </li>\n                <li class=\"nav-item\"\
+        >\n                    <a id=\"research\" class=\"nav-link\" href=\"/research\"\
+        >Research</a>\n                </li>\n                <li class=\"nav-item\"\
+        \ id=\"blog\">\n                    <a class=\"nav-link js-scroll-trigger\"\
+        \ href=\"/blog\" target=\"_blank\" id=\"blog\">Blog</a>\n                </li>\n\
+        \                <li class=\"nav-item\" id=\"blog\">\n                   \
+        \ <a class=\"nav-link js-scroll-trigger\" href=\"/oio\" target=\"_blank\"\
+        \ id=\"blog\">OIO</a>\n                </li>\n            </ul>\n        </div>\n\
+        \        <a class=\"nav-item\" href=\"/jp\" style=\"margin-right: 50px; color:\
+        \ #1a75ff; font-size:12px;\">Japanese</a>\n        <a href=\"#contact\" class=\"\
+        cta_button js-scroll-trigger\">Interested?</a>\n      </div>\n    </nav>\n\
+        \n    <!-- Intro Header -->\n    <header class=\"masthead\">\n      <div class=\"\
+        intro-body\">\n        <div class=\"container-intro\">\n          <div class=\"\
+        row justify-content-center\">\n            <div class=\"col-lg-5 col-md-6\
+        \ col-xs-2\">\n              <h1 class=\"brand-heading\">Company scouting\
+        \ for R&D, Innovation & Pragmatic Challenges</h1>\r\n<p class=\"intro-text\"\
+        >Using our self-made and proven AI algorithm, we provide you details on companies\
+        \ who solve your problem, decrease your costs, optimize your process and increases\
+        \ your revenue.</p>\r\n<p><a id=\"alt\" class=\"cta_button js-scroll-trigger\"\
+        \ href=\"#contact\">Want a test?</a></p>\n            </div>\n           \
+        \ <div class=\"col-lg-5 col-md-6 col-xs-2\" id=\"intro_img\">\n          \
+        \    <img src=\"img/infor_intro.png\" alt=\"\" />\n            </div>\n  \
+        \        </div>\n        </div>\n        \n        <div class=\"container-fluid\"\
+        >\n          <div class=\"row justify-content-center align-items-center\"\
+        \ id=\"Editrow\">\n            <div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-2\"\
+        >\n              <h6 class=\"text-client\">Clients: </h6>\n              <img\
+        \ src=\"img/cb_client.png\" class=\"img-responsive center-block\" alt=\"client-img\"\
+        \ id=\"Logo\"/>\n            </div>\n            <div class=\"col-lg-2  col-md-2\
+        \ col-sm-2 col-xs-2\">\n              <img src=\"img/akzonobel_client.png\"\
+        \ class=\"img-responsive center-block\" alt=\"client-img\" id=\"LogoAN\" />\n\
+        \            </div>\n            <div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-2\"\
+        >\n              <img src=\"img/randstad_client.png\" class=\"img-responsive\
+        \ center-block\" alt=\"client-img\" id=\"LogoRS\"/>\n            </div>\n\
+        \            <div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-2\">\n       \
+        \       <h6 class=\"text-ach\">Achievements: </h6>\n              <img src=\"\
+        img/achmea_fintech_winner.png\" class=\"img-responsive center-block\" alt=\"\
+        achievements-img\" id=\"LogoAch\"/>\n            </div>\n            <div\
+        \ class=\"col-lg-2 col-md-2 col-sm-2 col-xs-2\">\n              <img src=\"\
+        img/NT_Logo.png\" class=\"img-responsive center-block\" alt=\"achievements-img\"\
+        \ id=\"LogoNT\" />\n            </div>\n\n            </div>\n\n      </div>\n\
+        \      </div>\n      \n    </header>\n\n    <!-- What we do Section -->\n\
+        \    <section id=\"about\" class=\"content-section text-center\">\n      <div\
+        \ class=\"container\">\n      <div class=\"row justify-content-center\">\n\
+        \          <a href=\"#about\" class=\"title_button js-scroll-trigger\" id=\"\
+        about_btn\">\n               <span class=\"animated\">Our Services</span>\n\
+        \          </a>\n      </div>\n        <div class=\"row justify-content-end\
+        \ explainer\" id=\"first_ex\">\n          <div class=\"col-lg-6 pl-lg-5 col-xs-12\"\
+        >\n            <div class=\"step-placement\">\n              <!-- <span class=\"\
+        diamond\">1</span> -->\n              <h2 class=\"text-diamond\">xSource</h2>\n\
+        \            </div>\n            <h2 class=\"text-left\">Facing problems finding\
+        \ companies which can solve your Challenges?</h2>\r\n<p class=\"intro-text\
+        \ text-left\">Every night our \u2018IFI_xSource\xA9\u2019 algorithm is scanning\
+        \ the web to structure and source problem-solving companies. While you sleep,\
+        \ the algorithm scanned millions of sources. The algorithm scopes and structures\
+        \ pieces of data to find exactly the best companies, specified on your interest,\
+        \ to solve your challenge.\r\n</p>\n            <a id=\"alt-1\" class=\"cta_button\
+        \ pdf-button\" href=\"pdf/xsource.pdf\">More Information</a>\n          </div>\n\
+        \          <div class=\"col-xs-12 step_1_mobile\">\n            <img src=\"\
+        img/stappenplan_1_mobiel.png\" alt=\"\" />\n          </div>\n        </div>\n\
+        \        <div class=\"row explainer\" id=\"last_ex\">\n          <div class=\"\
+        col-lg-6\">\n            <div class=\"step-placement-2\">\n             <!--\
+        \ <span class=\"diamond\">2</span> -->\n              <h2 class=\"text-diamond\"\
+        >xRank</h2>\n            </div>\n            <h2 class=\"text-left\">Having\
+        \ difficulties to know which company is the best to partner with?</h2>\r\n\
+        <p class=\"intro-text text-left\">With our unique \u2018IFI_xRank\xA9\u2019\
+        \ algorithm we are capable of ranking the found companies to discover which\
+        \ is the most suitable to work with. Using more than 10 different parameters\
+        \ the output is highly accurate. \r\n</p>\n            <a id=\"alt-1\" class=\"\
+        cta_button pdf-button\" href=\"pdf/xrank.pdf\">More Information</a>\n    \
+        \      </div>\n          <div class=\"col-xs-12 step_2_mobile\">\n       \
+        \     <img src=\"img/stappenplan_2_mobiel.png\" alt=\"\" />\n          </div>\n\
+        \        </div>\n        <div class=\"row explainer\">\n          <div class=\"\
+        col-lg-6 offset-lg-1\">\n            <div class=\"step-placement\">\n    \
+        \         <!-- <span class=\"diamond\">3</span> -->\n              <h2 class=\"\
+        text-diamond\">xComp</h2>\n            </div>\n            <h2 class=\"brand-heading\
+        \ text-left\">Are you actually aware if the company has worked with a competitor\
+        \ of yours?</h2>\r\n<p class=\"intro-text text-left\">Our xComp algorithm\
+        \ is there for you. You deliver us a list of your \u2018competitors\u2019\
+        \ and we could check, using our \u2018IFI_xComp\xA9\u2019 algorithm, if one\
+        \ of the provided companies has worked with one of your competitors at the\
+        \ moment or in the past.\r\n</p>\n            <a id=\"alt-1\" class=\"cta_button\
+        \ pdf-button\" href=\"pdf/xcomp.pdf\">More Information</a>\n          </div>\n\
+        \          <div class=\"col-xs-12 step_3_mobile\">\n            <img src=\"\
+        img/stappenplan_3_mobiel.png\" alt=\"\" />\n          </div>\n        </div>\n\
+        \      </div>\n    </section>\n\n    <!-- Cases Section -->\n    <section\
+        \ id=\"cases\" class=\"cases-section content-section text-center\">\n    \
+        \  <div class=\"container\">\n        <div class=\"row justify-content-center\"\
+        >\n               <a href=\"#cases\" class=\"title_button js-scroll-trigger\"\
+        \ id=\"cases_btn\">\n                  <span class=\"animated\">Cases</span>\n\
+        \               </a>\n        </div>\n        <div class=\"row\">\n      \
+        \       <div class=\"num col-lg-3 text-left\"></div>\n        </div>\n   \
+        \     <div class=\"row\">\n          <div>\n              <div id=\"carouselExampleControls\"\
+        \ class=\"carousel slide\" data-ride=\"carousel\">\n                    <div\
+        \ class=\"carousel-inner\">\n                      <div class=\"carousel-item\
+        \ active\">\n                          <div class=\"carousel-caption d-none\
+        \ d-md-block case-desc col-lg-3 \">\n                          <h3 class=\"\
+        text-left\"><span style=\"color:#1bc98f;\">IFI_xSource</span> and <span style=\"\
+        color:#1bc98f\">IFI_xComp</span> for Randstad</h3>\r\n<p class=\"text-left\"\
+        >Challenge: \u2018What startup-partnership activities do my competitors have\
+        \ in the field of \u2018Candidate Engagement\u2019?\u2019\r\nOur xComp algorithm\
+        \ surfaced information about the innovative partnerships of their main competitors:\
+        \ Adecco and Young Capital. We then helped Randstad to find their own partnership\
+        \ opportunities in the field of \u2018Candidate engagement\u2019. Randstad\
+        \ used this to know how to differentiate themselves and completed this by\
+        \ partnering with a company which did not work with Adecco or Young Capital\
+        \ to eventually increase Candidate Satisfaction. <br /> <em>Client: </em><img\
+        \ class=\"client\" src=\"img/client_randstad.png\" alt=\"Randstad\" /></p>\n\
+        \                          </div>\n                          <img class=\"\
+        case_img d-block w-100 col-lg-9 offset-lg-3 2\" src=\"img/inforintelligence_visual_case_competition_analysis.png\"\
+        \ alt=\"First slide\">\n                      </div>\n                   \
+        \   <div class=\"carousel-item\">\n                          <div class=\"\
+        carousel-caption d-none d-md-block case-desc col-lg-3\">\n               \
+        \           <h3 class=\"text-left\"><span style=\"color:#1bc98f;\">IFI_xSource</span>\
+        \ for Achmea</h3>\r\n<p class=\"text-left\">Challenge: \u2018Find suitable\
+        \ Israeli startup in the field of \u2018smart home solutions\u2019 to work\
+        \ with us (Achmea) so we could enter a new market\u2019\r\nWe gathered insights\
+        \ on the companies in this particular industry using our xSource algorithm.\
+        \ Eventually, Achmea used our data to further develop their product development\
+        \ strategy. <br /> <em>Client: </em><img class=\"client\" src=\"img/client_achmea.png\"\
+        \ alt=\"Achmea\" /></p>\n                          </div>\n              \
+        \            <img class=\"case_img d-block w-100 col-lg-9 offset-lg-3 \" src=\"\
+        img/inforintelligence_visual_case_technology_gap.png\" alt=\"First slide\"\
+        >\n                      </div>\n                      <div class=\"carousel-item\"\
+        >\n                          <div class=\"carousel-caption d-none d-md-block\
+        \ case-desc col-lg-3 \">\n                          <h3 class=\"text-left\"\
+        ><span style=\"color:#1bc98f;\">IFI_xSource</span> and <span style=\"color:#1bc98f;\"\
+        >IFI_xComp</span> and <span style=\"color:#1bc98f;\">IFI_xRank</span> for\
+        \ AkzoNobel</h3>\r\n<p class=\"text-left\">Challenge: \u2018Find a predictive\
+        \ maintenance company, who had experience with an industry peer, specialised\
+        \ in pipeline inspection, to partner with us (Akzonobel) and decrease the\
+        \ cost of repairs\u2019 \r\nWe sourced companies, ranked the companies with\
+        \ the \u2018IFI_xRank\xA9\u2019 algorithm, filtered them with the \u2018IFI_xComp\xA9\
+        \u2019 algorithm and delivered the visualized data to AkzoNobel. The partner\
+        \ we found was a perfect match since they already delivered this solution\
+        \ to similar type of companies. <br /><br /><em>Client: </em><img class=\"\
+        client\" src=\"img/client_akzonobel.png\" alt=\"AkzoNobel\" /></p>\n     \
+        \                     </div>\n                          <img class=\"case_img\
+        \ d-block w-100 col-lg-9 offset-lg-3 \" src=\"img/inforintelligence_visual_case_collaboration_identifier.png\"\
+        \ alt=\"First slide\">\n                      </div>\n                   \
+        \   <div class=\"carousel-item\">\n                          <div class=\"\
+        carousel-caption d-none d-md-block case-desc col-lg-3 \">\n              \
+        \            <h3 class=\"text-left\"><span style=\"color:#1bc98f;\">IFI_xSource</span>\
+        \ and <span style=\"color:#1bc98f;\">IFI_xComp</span> and <span style=\"color:#1bc98f;\"\
+        >IFI_xRank</span> for Disclosed</h3>\r\n<p class=\"text-left\">With one of\
+        \ our disclosed clients, we deliver answers to their challenges every quarter\
+        \ using all three algorithms. We prefer subscription based since we get to\
+        \ know our client better and therefore can continuously improve our algorithm\
+        \ based on their preferences, needs and necessities.<br /><br /><em>Client:\
+        \ </em></p>\n                          </div>\n                          <img\
+        \ class=\"case_img d-block w-100 col-lg-9 offset-lg-3 \" src=\"img/Design.png\"\
+        \ alt=\"First slide\">\n                      </div>\n                   \
+        \ </div>\n                       <a class=\"carousel-control-prev offset-lg-3\"\
+        \ href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n\
+        \                       <span class=\"carousel-control-prev-icon\" aria-hidden=\"\
+        true\"></span>\n                       <span>previous</span>\n           \
+        \            </a>\n                       <a class=\"carousel-control-next\
+        \ text-right\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"\
+        next\">\n                       <span class=\"carousel-control-next-icon\"\
+        \ aria-hidden=\"true\"></span>\n                       <span class=\"control_next\"\
+        >next</span>\n\n                       </a>\n              </div>\n      \
+        \    </div>\n        </div>\n      </div>\n    </section>\n\n\n    <!-- Founders\
+        \ Section -->\n    <section id=\"founders\" class=\"content-section text-center\"\
+        >\n      <div class=\"container\">\n        <div class=\"row justify-content-center\"\
+        >\n               <a href=\"#founders\" class=\"title_button js-scroll-trigger\"\
+        >\n                  <span class=\"animated\">Founders</span>\n          \
+        \     </a>\n        </div>\n        <div class=\"row justify-content-center\"\
+        >\n          <div class=\"col-lg-4 text-left\">\n            <img src=\"img/founders_niek.jpg\"\
+        \ alt=\"Niek Hermus\" />\n            <div class=\"founders_logo\"></div>\n\
+        \            <h2 class=\"text-left\">Niek Hermus</h2>\r\n<p class=\"intro-text\
+        \ text-left\">Niek is an analytical entrepreneur who understands how to build\
+        \ algorithms and use the internet as a power tool. He continuously tweaks\
+        \ the self-made algorithms to gain the most valuable insights. Talk to him\
+        \ if you are interested in the capacities of our technology.</p>\r\n<p><a\
+        \ href=\"https://nl.linkedin.com/in/niek-hermus-85026a124\" target=\"_blank\"\
+        ><img class=\"linkedin\" src=\"img/linkedin.png\" alt=\"LinkedIn Julien Winkel\"\
+        \ /></a></p>\n          </div>\n          <div class=\"col-lg-4 offset-lg-2\
+        \ text-left\">\n            <img src=\"img/founders_julien.jpg\" alt=\"Julien\
+        \ Winkel\" />\n            <div class=\"founders_logo\"></div>\n         \
+        \   <h2 class=\"brand-heading text-left\">Julien Winkel</h2>\r\n<p class=\"\
+        intro-text text-left\">Serial entrepreneur Julien started his first company\
+        \ when he was 17 and never stopped since then. He makes sure the insights\
+        \ land on the right desk. Get in touch with him to see what InForIntelligence\
+        \ can do for your business.</p>\r\n<p><a href=\"https://nl.linkedin.com/in/julienwinkel\"\
+        \ target=\"_blank\"><img class=\"linkedin\" src=\"img/linkedin.png\" alt=\"\
+        LinkedIn Julien Winkel\" /></a></p>\n          </div>\n        </div>\n  \
+        \    </div>\n    </section>\n\n    <!-- Contact Section -->\n    <section\
+        \ id=\"contact\" class=\"content-section text-center\">\n      <div class=\"\
+        container\">\n         <div class=\"row justify-content-center\">\n      \
+        \         <a href=\"#contact\" class=\"title_button js-scroll-trigger\">\n\
+        \                  <span class=\"animated\">Contact</span>\n             \
+        \  </a>\n        </div>\n        <div class=\"row\">\n          <div class=\"\
+        col-lg-3 offset-lg-1 col-md-6\">\n            <h2 class=\"text-left\">Let\u2019\
+        s grab a cup of coffee.</h2>\n          </div>\n          <div class=\"col-lg-6\
+        \ offset-lg-1 text-left col-md-6\">\n\n<div id=\"spf_form\">\n\n<form action=\"\
+        https://inforintelligence.com/\" method=\"post\" onsubmit=\"return checkform(this);\"\
+        >\n  <input type=\"hidden\" name=\"spf-submit-var\" id=\"spf-submit-var\"\
+        \ value=\"defaultSubmitVar\" />\n  <fieldset style=\"display:none\">\n   \
+        \  \n     \n  </fieldset>\n\n  \n\n  \n\n  \n\n <div class=\"spf_recipient\"\
+        ><input type=\"hidden\" name=\"whoto\" value=\"Webmaster\" />\n</div>\n\n\
+        <div class=\"spf_input_pair\">\n<span class=\"spf_normal_input\"><input type=\"\
+        text\" id=\"name\" name=\"name\" value=\"Name\" size=\"30\" value=\"\" /></span>\n\
+        </div>\n\n<div class=\"spf_input_pair\">\n<span class=\"spf_normal_input\"\
+        ><input type=\"text\" id=\"email\" name=\"email\" value=\"Email\" size=\"\
+        30\" value=\"\" /></span><br />\n</div>\n\n<div class=\"spf_input_pair\">\n\
+        <span class=\"spf_normal_input\"><input type=\"text\" id=\"subject\" name=\"\
+        subject\" value=\"Subject\" size=\"30\" value=\"\" /></span><br />\n</div>\n\
+        \n  \n\n<div class=\"spf_textarea\">\n<label for=\"comments\">\n<textarea\
+        \ id=\"comments\" name=\"comments\" value=\"Message\" rows=\"10\" cols=\"\
+        80\">Hello Julien & Niek, </textarea></label>\n</div>\n\n<div class=\"spf_buttons\"\
+        ><input type=\"submit\" name=\"s\" value=\"Send\" />&nbsp;\n\n</div>\n\n</form>\n\
+        </div>\n          </div>\n        </div>\n      </div>\n    </section>\n\n\
+        \    <!-- Footer -->\n    <footer>\n      <div class=\"container text-left\"\
+        >\n        <p>Copyright \xA9 2019 InForIntelligence B.V. | KVK 70912300 |\
+        \ BTW NL858508059B01 | Design by <a href=\"http://www.jellekok.com\" target=\"\
+        _blank\">Jelle Kok</a></p>\n      </div>\n    </footer>\n\n    <!-- Bootstrap\
+        \ core JavaScript -->\n    <script src=\"vendor/jquery/jquery.min.js\"></script>\n\
+        \    <script src=\"vendor/bootstrap/js/bootstrap.bundle.min.js\"></script>\n\
+        \n    <!-- Plugin JavaScript -->\n    <script src=\"vendor/jquery-easing/jquery.easing.min.js\"\
+        ></script>\n\n    <!-- Custom scripts for this template -->\n    <script src=\"\
+        js/grayscale.min.js\"></script>\n\n    <script>\n    var totalItems = $('.carousel-item').length;\n\
+        \    var currentIndex = $('div.active').index() + 1;\n    $('.num').html(''+currentIndex+'/'+totalItems+'');\n\
+        \n    $('.carousel').carousel({\n        interval: 10000\n    });\n\n    $('.carousel').on('slid.bs.carousel',\
+        \ function() {\n        currentIndex = $('div.active').index() + 1;\n    \
+        \   $('.num').html(''+currentIndex+'/'+totalItems+'');\n    });\n    </script>\n\
+        \    <script>\n    $('input:text').focus(\n        function(){\n         \
+        \   $(this).val('');\n    });\n    </script>\n\n  </body>\n\n</html>"
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Fri, 05 Apr 2019 21:01:24 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - PHPSESSID=927912dfd3c9951e0ec897c9fca3927a; expires=Fri, 12-Apr-2019 21:01:24
+        GMT; Max-Age=604800; path=/; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      X-TransIP-Backend:
+      - web282
+      X-TransIP-Balancer:
+      - lb1
+    status:
+      code: 200
+      message: OK
+version: 1

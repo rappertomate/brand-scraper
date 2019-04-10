@@ -1,4 +1,3 @@
-# TODO: memorize route of each src. if one image has another address or much longer/short name, it is most likely sth else
 # TODO: timeit for request and then for parsing
 # TODO: return as tuple, enrich with kind of partnership if available (client, supplier, challenge...)
 # TODO: toss image if too large e.g one side > 400 -> BETTER NOT DO THIS
@@ -12,14 +11,37 @@ KEYWORDS = (
     'partner', 'client', 'testimonial',
     'customer', 'case', 'study', 'studies')
 
+BLOCKWORDS = ('placeholder', 'dummy')  # black list
+
 
 def parse_partner_name(img_tag):
+    text = None
+    src = img_tag.attrs['src']
+    file_name = os.path.splitext(os.path.basename(src))[0]
+    file_ext = os.path.splitext(os.path.basename(src))[1]
+    file_dir = os.path.dirname(src)
+
     if 'alt' in img_tag.attrs:  # 'alt' may contain bs
-        return img_tag.attrs['alt']
-    else:
-        src = img_tag.attrs['src']
-        file_name = os.path.splitext(os.path.basename(src))[0]
-        return file_name
+        if img_tag.attrs['alt'].strip():
+            text = img_tag.attrs['alt']
+
+    if not text:
+        text = file_name
+
+    # clean up:
+
+    if file_ext == '.svg':
+        for w in KEYWORDS:  # keyword in path is good sign
+            if w in file_dir:
+                break
+        else:
+            return None
+
+    for w in KEYWORDS + BLOCKWORDS:  # keyword in file name/alt text is bad sign
+        if w in text:
+            return None
+
+    return text
 
 
 def check_tag_keywords(tag):
@@ -27,12 +49,12 @@ def check_tag_keywords(tag):
         class_str = ''.join(tag.attrs['class'])
     else:
         class_str = ''
-    for k in KEYWORDS:
-        if k in class_str:
+    for w in KEYWORDS:
+        if w in class_str:
             return True
-        elif 'src' in tag.attrs and k in tag.attrs['src']:
+        elif 'src' in tag.attrs and w in tag.attrs['src']:
             return True
-        elif 'href' in tag.attrs and k in tag.attrs['href']:
+        elif 'href' in tag.attrs and w in tag.attrs['href']:
             return True
 
     return False
@@ -57,26 +79,12 @@ def parse_page(url):
                 elif check_tag_keywords(i.parent.parent):
                     results.add(parse_partner_name(i))
 
+    results.discard(None)
+
     return results
 
 
-def clean_results(result_set):
-    result_set.remove("")
-
-    non_set = set()
-    for r in result_set:
-        if not r.strip():  # maybe strip everything initially
-            non_set.add(r)
-            continue
-        for k in KEYWORDS:
-            if k in r:
-                non_set.add(r)
-
-    return result_set - non_set
-
-
 if __name__ == '__main__':
-    results = parse_page(
-        'https://www.stackoverflowbusiness.com/talent/case-studies')
-    cleaned = clean_results(results)
-    print(cleaned)
+    results = parse_page(  # pass URL for tests here
+        'https://www.filament.ai/')
+    print(results)
